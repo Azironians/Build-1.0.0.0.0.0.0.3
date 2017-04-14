@@ -1,7 +1,11 @@
 package Implements;
 
-/**
- * Created by Konstantin on 14.04.2017.
- */
 public class Player {
+    public interface Players {
+        Double getScore();
+        void setPlusScore(Double score);
+    }
+
+
+
 }
