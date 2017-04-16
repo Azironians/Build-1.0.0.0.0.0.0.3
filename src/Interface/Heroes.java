@@ -2,7 +2,6 @@ package Interface;
 
 import Implements.Player;
 
-
 public class Heroes {
 
     static class Devourer implements Player.Players {
