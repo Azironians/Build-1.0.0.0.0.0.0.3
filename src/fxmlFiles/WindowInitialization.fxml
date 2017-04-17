@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane id="LoadingPane" fx:id="LoadindWindow" cache="true" maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerInitialization">
+   <children>
+      <ImageView fx:id="windowInit" blendMode="SRC_ATOP" cache="true" fitHeight="720.0" fitWidth="1280.0" mouseTransparent="true" onMouseClicked="#loadLoad" pickOnBounds="true">
+         <image>
+            <Image url="@../../Picture/Windows/WindowInitialization.jpg" />
+         </image>
+      </ImageView>
+      </children>
+</Pane>
