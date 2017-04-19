@@ -1,6 +1,6 @@
-package Class;
+package Classes;
 
-import Interface.Heroes;
+import Interface.Hero;
 
 //Класс, отображающий прогресс героев:
 public class LevelTab {
@@ -17,7 +17,7 @@ public class LevelTab {
     private Double[] healingLV = new Double[]{75.0, 90.0, 108.0, 130.0, 156.0, 187.0, 224.0, 269.0, 322.0, 387.0};
     private Double[] healingDevourer = new Double[]{100.0, 120.0, 144.0, 173.0, 207.0, 249.0, 299.0, 358.0, 430.0, 516.0};
 
-    public LevelTab(Heroes heroes) {
+    public LevelTab(Hero hero) {
 
     }
 

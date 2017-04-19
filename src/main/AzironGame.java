@@ -19,7 +19,7 @@ public class AzironGame extends Application {
 
     @Override
     public void start(Stage AzironStage) throws Exception {
-        Pane root = FXMLLoader.load(getClass().getResource("../fxmlFiles/WindowInitialization.fxml"));
+        Pane root = FXMLLoader.load(getClass().getResource("../fxmlFiles/WindowInitialization.fxml")); // Костя, а здесь не Parent?
         AzironStage.setTitle("Heroes of Azironian");
         Scene scene = new Scene(root, 1280, 720);
         File file = new File("Picture\\Windows\\WindowInitialization.jpg");

@@ -1,4 +1,4 @@
-package Class;
+package Classes;
 
 import java.io.File;
 import java.io.IOException;
