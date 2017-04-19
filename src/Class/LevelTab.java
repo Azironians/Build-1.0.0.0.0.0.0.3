@@ -2,7 +2,7 @@ package Class;
 
 import Interface.Heroes;
 
-
+//Класс, отображающий прогресс героев:
 public class LevelTab {
     //Запас здоровья:
     private Double[] healthDevourer = new Double[]{400.0, 480.0, 575.0, 690.0, 830.0, 995.0, 1195.0, 1430.0, 1720.0, 2065.0};
