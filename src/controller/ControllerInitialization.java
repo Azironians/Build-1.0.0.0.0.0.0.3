@@ -1,4 +1,5 @@
 package controller;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -10,6 +11,7 @@ import main.AzironGame;
 import java.io.IOException;
 
 public class ControllerInitialization extends Pane {
+
     public void loadLoad(MouseEvent mouseEvent) throws IOException {
     Parent root = FXMLLoader.load(getClass().getResource("../fxmlFiles/WindowInitialization.fxml"));
         Stage g = new AzironGame().getStage();
