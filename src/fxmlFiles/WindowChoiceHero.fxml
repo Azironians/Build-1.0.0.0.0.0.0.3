@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="836.0" fitWidth="1340.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Picture/Windows/WindowChoiceHeroes.png" />
+            <Image url="@../../Picture/Windows/WindowInitRemaked.bmp" />
          </image>
       </ImageView>
       <Pane layoutX="978.0" layoutY="38.0" prefHeight="299.0" prefWidth="304.0">

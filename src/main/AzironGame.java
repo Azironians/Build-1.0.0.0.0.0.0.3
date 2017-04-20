@@ -15,7 +15,7 @@ import java.io.File;
 public class AzironGame extends Application {
 
     public AzironGame(){}
-    private Stage azironStage;
+    private Pane azironStage;
 
     @Override
     public void start(Stage AzironStage) throws Exception {
@@ -25,18 +25,15 @@ public class AzironGame extends Application {
         File file = new File("Picture\\Windows\\WindowInitialization.jpg");
         Image image = new Image(file.toURI().toString(),1280.0,720.0,true,true);
         ImageView imageView = new ImageView(image);
-        File file2 = new File("Picture\\Windows\\WindowInit.bmp");
-        Image image2 = new Image(file2.toURI().toString(),1280.0,720.0,true,true);
-        ImageView imageView2 = new ImageView(image2);
 
-        root.getChildren().addAll(imageView,imageView2);
+        root.getChildren().addAll(imageView);
 
         AzironStage.setScene(scene);
         AzironStage.show();
-        this.azironStage = AzironStage;
+        this.azironStage = root;
     }
 
-    public Stage getStage() {
+    public Pane getStage() {
         return azironStage;
     }
 

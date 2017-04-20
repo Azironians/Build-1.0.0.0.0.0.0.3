@@ -6,7 +6,7 @@ public class Skill {
     private byte necessaryLevel;
 
     public boolean isOpenSkill(Hero hero){
-        return this.coultdown == 0 && this.necessaryLevel >= hero.getLevelHero();
+        return true; // this.coultdown == 0 && this.necessaryLevel >= hero.getLevelHero();
     }
     //Getters and Setters
     public byte getCoultdown() {
